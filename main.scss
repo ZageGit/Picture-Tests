@@ -1,0 +1,52 @@
+.Picturecard {
+	background-image: -webkit-linear-gradient(#336666, #66cccc);
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 3rem;
+	padding: 1rem;
+
+}
+.container {
+	display:flex;
+	flex-flow:row wrap;
+	align-items: center;
+	justify-content: space-around;
+
+}
+body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto
+	}
+
+header {
+	text-align: center;
+	margin-bottom: 1%
+}
+
+h4	{
+	color: white;
+	font-size: 1.5em;
+
+}
+
+.headerlogo {
+	margin: 0 auto;
+}
+
+   
+@media screen and (max-width: 800px) {
+   body {
+       background-color: lightgreen;
+   }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+   body {
+       background-color: deepskyblue;
+   }
+}
+@media screen and (min-width:1200px) {
+   body {
+       background-color: darksalmon;
+   }
+}

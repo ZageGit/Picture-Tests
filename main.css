@@ -1,10 +1,80 @@
+main {
+  display: flex; }
+
+.myButton {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 6px;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, #1c6ea4 0%, #2388cb 50%, #144e75 100%);
+  box-shadow: black 5px 5px 15px 5px;
+  border: 2px solid #1c6ea4;
+  display: inline-block; }
+
+.myButton:hover {
+  background: #1C6EA4; }
+
+.myButton:active {
+  background: #144E75; }
+
 /*Picture+Text Container format */
 .Picturecard {
   background-image: -webkit-linear-gradient(#336666, #66cccc);
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 3rem;
-  padding: 1rem; }
+  margin: 1rem 1rem 3rem 1rem;
+  padding: 1rem;
+  max-height: auto;
+  width: 30%; }
+
+a {
+  font-size: 2em;
+  text-decoration: none;
+  color: red; }
+
+.navigation {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 0; }
+
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  text-align: center;
+  background: #000000;
+  background: -moz-linear-gradient(-45deg, #000000 0%, #C81B09 38%, #5BC50B 100%);
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #C81B09 38%, #5BC50B 100%);
+  background: linear-gradient(135deg, #000000 0%, #C81B09 38%, #5BC50B 100%);
+  padding: 1em;
+  margin-top: 1rem; }
+
+.picture {
+  width: 100%; }
+
+.headline {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+  letter-spacing: 2.4px;
+  word-spacing: 2.6px;
+  color: #800000;
+  font-weight: 700;
+  text-decoration: none solid #444444;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  text-shadow: 2px 2px 2px #AE3416; }
+
+.headerlogo {
+  max-height: 325px; }
 
 /* Container of all Picturecards layout, Flexbox */
 .container {
@@ -22,13 +92,13 @@ body {
 
 /* Header, only margin for space */
 header {
-  text-align: center;
-  margin-bottom: 1%; }
+  text-align: center; }
 
 /* Picturecard Text font settings */
 h4 {
   color: white;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-align: center; }
 
 /* Picturecard hover shake settings */
 .Picturecard:hover {
@@ -65,9 +135,15 @@ h4 {
 
   h4 {
     color: red;
-    font-size: 2em; } }
-@media screen and (min-width: 801px) and (max-width: 1500px) {
+    font-size: 2em; }
+
+  .headerlogo {
+    display: none; } }
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
   body {
-    background-image: url("https://i.ytimg.com/vi/dUgJyqGexs0/maxresdefault.jpg"); } }
+    background-image: url("https://i.ytimg.com/vi/dUgJyqGexs0/maxresdefault.jpg"); }
+
+  .headline {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -16,7 +16,10 @@ main {
   background-image: linear-gradient(to right, #1c6ea4 0%, #2388cb 50%, #144e75 100%);
   box-shadow: black 5px 5px 15px 5px;
   border: 2px solid #1c6ea4;
-  display: inline-block; }
+  display: inline-block;
+  height: 2em;
+  width: 6em;
+  padding-top: 1em; }
 
 .myButton:hover {
   background: #1C6EA4; }
@@ -74,7 +77,8 @@ a {
   text-shadow: 2px 2px 2px #AE3416; }
 
 .headerlogo {
-  max-height: 325px; }
+  width: 100%;
+  opacity: 70%; }
 
 /* Container of all Picturecards layout, Flexbox */
 .container {

@@ -79,6 +79,7 @@ font-style: normal;
 font-variant: small-caps;
 text-transform: none;
 text-shadow: 2px 2px 2px #AE3416;
+display:none;
 
 
 
@@ -154,14 +155,13 @@ h4	{
     .headerlogo {
       display:none;
     }
+    .headline {
+    	display:visible;
+    }
 }
 @media screen and (min-width: 1001px) and (max-width: 1500px) {
    body {
        background-image:url("https://i.ytimg.com/vi/dUgJyqGexs0/maxresdefault.jpg");
    }
 
-   .headline {
-    display:none;
    }
-}
-

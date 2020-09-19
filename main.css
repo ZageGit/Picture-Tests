@@ -74,7 +74,8 @@ a {
   font-style: normal;
   font-variant: small-caps;
   text-transform: none;
-  text-shadow: 2px 2px 2px #AE3416; }
+  text-shadow: 2px 2px 2px #AE3416;
+  display: none; }
 
 .headerlogo {
   width: 100%;
